@@ -1,5 +1,111 @@
+@import url(https://db.onlinewebfonts.com/c/080242bc52df67d6bf381674170487f9?family=GT+Flexa+Trial+Cm+Md);
+@import url(https://db.onlinewebfonts.com/c/e4bffedf971c1c49b1156e1440ae5e54?family=GT+Flexa+Trial+Exp+Bd);
+@import url(https://db.onlinewebfonts.com/c/29d7f13cb8d03e4bddff2eecdc7d2ff2?family=Space+Mono);
 *{
     margin: 0;
     padding:0;
     box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
 }
+
+body{
+    background: #fdf8e6;
+   
+margin: 0 auto;
+}
+/* header */
+
+
+/* navigation */
+nav{
+    max-width: 85%;
+
+    display: flex;
+    
+    align-items:baseline;
+    justify-content: center;
+    /* width: 95%; */
+    margin: 0 auto;
+    padding: 1.5rem 0 ;
+}
+
+/* nav left */
+.nav-left  {
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    flex-grow: 1;
+    
+}
+.nav-left a{
+    text-decoration: none;
+    color: #000;
+}
+
+
+/* nav center  */
+.nav-center{
+    flex-grow: 2;
+}
+.nav-center a{
+    font-family: "Space mono";
+    font-style: normal;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+    font-size: 1.1rem;
+    /* padding: 0 2rem; */
+}
+.nav-center ul {
+    gap: 30px;
+    display: flex;
+   align-items: center;
+   justify-content: center; 
+    list-style: none;
+    margin: 0 auto;
+}
+
+.nav-center a:hover{
+    text-decoration: underline;
+}
+
+nav hr{
+    height: 1rem;
+    width: max-content;
+    border:0.5px solid #000 ;
+}
+
+/* nav right  */
+.nav-right{
+    display: flex;
+    
+    
+}
+.nav-right button{
+    font-family: "GT Flexa Trial Exp Bd";
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: bold;
+    padding:1.2rem 3rem ;
+    background-color: #fdf8e6;
+    border: 0.5px solid #000;
+    margin: 0;
+}
+button.signup{
+    color:#f5fe64;
+    background-color: #72745a;
+    border-left: 0;
+}
+.nav-right button:hover{
+    color: #000;
+    background-color: #f5fe64;
+
+}
+
+
+.horizontal-line{
+    height: 0.5px;
+    border:0 none;
+    background-color:  #000;
+}
+
+
