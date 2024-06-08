@@ -101,11 +101,92 @@ button.signup{
 
 }
 
-
+/* hr  */
 .horizontal-line{
     height: 0.5px;
     border:0 none;
     background-color:  #000;
+}
+
+
+
+/* footer */
+footer{
+    padding: 6rem;
+    display: flex;
+    justify-content: space-between;
+    max-width: 70%;
+    margin: auto;
+    align-items: baseline;
+
+}
+/* footer left */
+.footer-left{
+    
+    padding: 1rem;
+    width: 35%;
+    
+    
+}
+.footer-left h1{
+    font-size: 1.5rem;
+    font-family: "GT Flexa Trial Exp Bd";
+    text-transform: capitalize;
+    
+}
+.footer-left p{
+    font-size: 1.5rem;
+    font-family: "GT Flexa Trial Exp Bd";
+    text-transform: capitalize;
+    padding: 2rem 3rem 2rem 0;
+    
+}
+
+.footer-left input{
+    padding:2rem 3rem 2rem;
+    font-size: 1rem;
+    width: 55%;
+}
+
+.footer-left button{
+    font-family: "GT Flexa Trial Exp Bd";
+    text-transform: uppercase;
+    color: #f5fe64;
+    padding:2rem 3rem 2rem;
+    font-size: 1rem;
+    background-color: #72745a;
+    width: 45%;
+}
+
+
+/* footer right */
+
+
+.right p{
+    font-family: "GT Flexa Trial Exp Bd";
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom:1rem ;
+}
+
+.right ul{
+    list-style: none;
+    
+}
+
+.right a{
+    font-family: "Space mono";
+    font-style: normal;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+    font-size: 1.1rem;
+    line-height: 2rem;
+}
+
+.right a:hover{
+    text-decoration: underline;
 }
 
 
