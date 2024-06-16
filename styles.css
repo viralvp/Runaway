@@ -259,10 +259,86 @@ button.signup{
 
 
 
+/* feature section */
+article{
+    max-width:85% ;
+    margin: 0 auto;
+    
+}
+/* article p:first-child{
+    font-family: "GT Flexa Trial Exp Bd";
+    text-transform: capitalize;
+    font-size: 4rem;
+    font-weight: bold;
+    color: #333; 
+} */
+
+.ft-container{
+    display: flex;
+    gap: 3rem;
+}
 
 
+.ft-right{
+    width: 50%;display: flex;
+    flex-direction: column;
+    
+    padding-right: 2rem;
+}
+
+.ft-right-1{
+    display: flex;
+    height: 40%;
+    margin-bottom: 2rem;
+    border: 2px solid #000;
+}
+
+.ft-right-1 img{
+    flex-grow: 1;
+    
+}
+
+.ft-right-1 p{
+    text-decoration: none;
+}
+
+.ft-left {
+    border:2px solid #000;
+    display: flex;
+}
+
+.ft-left a{
+text-decoration: none;
+}
 
 
+.ft-left-2 p{
+    font-family: "GT Flexa Trial Exp Bd";
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    margin-top:2rem ;
+    font-weight: bold;
+    color: #333; 
+    text-decoration: none;
+    
+
+}
+
+.ft-left-2{
+    position: relative;
+    flex: 1;padding: 1rem;
+}
+
+.ft-left svg{
+    position: absolute;
+    bottom: 1rem; /* Adjust as needed for spacing */
+    right: 1rem;
+    border: 2px solid #000;
+    padding: 1rem;
+    width: 4rem;
+    height: 4rem;
+    background-color: #72745a;
+}
 
 
 
